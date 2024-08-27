@@ -1,0 +1,224 @@
+body, h1, h2, h3, h4, h5, p, a{
+    font-family: 'lato', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+}
+p, label, body{
+    font-weight: 400;
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+.Header1 {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    align-content: center;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+.main-heading{
+    position: absolute;
+    left: 625px;
+    top: 200px;
+    background-color: rgba(255, 255, 255, 0.406);
+    border-radius: 5px;
+    padding: 5px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: 700;
+    
+    
+}
+.Header1 {
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+    width: 100%;
+
+}
+
+.NavBar{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+}
+
+marquee {
+    color: white;
+    font-size: medium;
+    background-color: #b02a2a;
+    align-content: center;
+
+}
+
+Text {
+    font-size: x-large;
+
+}
+
+.MainSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 40px;
+
+}
+.hero-image{
+    background-image: url(images/football1.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    filter: blur(2px);
+
+}
+.video{
+    width: 520;
+    height: 340;
+    border-radius: 5px;
+}
+.profilecard{
+    height: 400px;
+    width: 400px;
+    background-color: #fdfdf6;
+    text-align: center;
+    border: 2px solid #2e2e2e43;
+    border-radius: 8px;
+    padding-top: 50px ;  
+    
+}
+.profilecard:hover{
+    box-shadow: 1px 1px 2px black;
+}
+.Profile{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Parent{
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    
+    /* margin-left: 200px;
+    margin-top: 100px; */
+} 
+.Feedback{
+    height: 300px;
+    width: 200px;
+    /* border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #fdfdf6;
+    padding-left: 30px;
+    border-style: none;
+    box-shadow: 1px 1px 4px #1c1c1c74 */
+    margin: 25px;
+    
+    
+}
+input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+}
+.HeaderImage{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/FootballBlack.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button{
+    background-color: #eb0c0ce3;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: #2e2e2e5c;
+}
+.Parent1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+.sidenavbar{
+    height: 100vh;
+    width: 250px;
+    background-color: rgb(57, 55, 55);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 100px;
+}
+.sidenavbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.sidenavbar a:hover{
+    text-decoration: none;
+}
+.add-btn{
+    margin: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #2e2e2eb0 ;
+    font-weight: 300;
+
+}
+.container-fluid .row{
+    align-items: center;
+}
+.dropdown .btn{
+    border: 1px solid black;
+}
+.gallery-card{
+    margin: 8px;
+    padding: 0 !important;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+}
+.gallery .row{
+    align-items: center;
+
+}
+.Contact{
+    width: 100%;
+    
+}

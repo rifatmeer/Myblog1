@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 100px;
+            width: 100px;
+            margin-bottom: 15px;
+
+        }
+        .Usercard{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #a8c0ee;
+            border-radius: 8px; 
+            padding: 20px;  
+            box-shadow: 2px 2px gray;   
+        }
+        .Parent{
+            width: 100%;
+            height: 100vh;
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .Details{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        button{
+            border: none;
+            height: 40px;
+            width: 400;
+            background-color: #7084aa;
+            border-radius: 4px;
+            box-shadow: 1px 1px black;
+        }
+        p, button{
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function ShowUser(){
+            document.getElementById("Usercard").style.display='Flex';
+            document.getElementById("User").innerHTML="Hide User";
+        }
+        function hideUser(){
+            document.getElementById("Usercard").style.display='None';
+            document.getElementById("User").innerHTML="Show User";
+
+        }
+        function ShowDetails(){
+            document.getElementById("UserDetails").style.display='Flex';
+            document.getElementById("Details").innerHTML="Hide Details";
+
+        }
+        function HideDetails(){
+            document.getElementById("UserDetails").style.display='None';
+            document.getElementById("Details").innerHTML="Show Details";
+
+        }
+
+    </script>
+</head>
+<body>
+    <div id="Parent" class="Parent">
+        <button id="User" onclick="ShowUser()" ondblclick="hideUser()">Show User</button><br>
+        <div id="Usercard" class="Usercard" style="display: none;">
+            <img src="images/Profile.png"><br>
+            <button id="Details" onclick="ShowDetails()" ondblclick="HideDetails()">Show Details</button>
+            <div id="UserDetails" class="Details" style="display: none;">
+                <p>Name: Rifat Meer</p>
+                <p>Email: rifat@gmail.com</p>
+                <p>D.O.B: 2-2-2000</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- <script>function ShowDetails() {
+        var details = document.querySelector('.Details');
+        details.style.display = "block";
+    }
+
+    function HideDetails() {
+        var details = document.querySelector('.Details');
+        details.style.display = "none";
+    }</script> -->
+
+
+
+</body>
+</html>
